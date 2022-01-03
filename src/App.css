@@ -1,0 +1,39 @@
+/* #main-links > a{
+    margin: 10px;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+} */
+
+*{
+    text-decoration: none;
+    /* background: #1abc9c; */
+    font-family: 'Cinzel Decorative'
+    
+}
+.link{
+    margin: 20px;
+}
+
+a{
+    cursor: pointer;
+    /* color: black; */
+}
+
+
+:link{
+    margin-right: 20px;
+}
+
+
+.head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr ;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    background: rgb(184, 192, 199);;
+    
+    text-align: center;
+}
+.head:hover{
+    transform: scale(1.1);
+}
+
